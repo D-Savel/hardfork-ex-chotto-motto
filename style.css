@@ -32,14 +32,21 @@ main {
   max-width: 720px;
   margin-right: auto;
   margin-left: auto;
+  padding-right: 20px ;
+  padding-left: 10px ;
   }
 
 /* les images ne dépassent pas l'écran */
 img {
   max-width: 100%;
   height: auto;
-  box-shadow: var(--yelllow) 0.25rem ;
 }
+
+main img{
+  box-shadow: 0.75rem 0.75rem var(--yelllow);
+
+}
+
 /* centrer les éléments de la partie header */
 header {
   text-align: center;
