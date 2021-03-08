@@ -38,6 +38,7 @@ main {
 img {
   max-width: 100%;
   height: auto;
+  box-shadow: var(--yelllow) 0.25rem ;
 }
 /* centrer les éléments de la partie header */
 header {
